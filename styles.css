@@ -39,9 +39,12 @@ body {
 
 .photo-container {
 	background-color:#0ec244;
+	height:400px;
+	width:400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+	border-radius:10px
 }
 
 .photo-main > img {
@@ -117,4 +120,11 @@ h1 {
 
 .add-to-cart:hover {
     background-color: #c0392b;
+}
+#one{
+	width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 3px 3px 3px grey;
 }
